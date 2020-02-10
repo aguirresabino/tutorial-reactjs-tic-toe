@@ -1,5 +1,7 @@
+/* eslint-disable max-classes-per-file */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
 class Square extends React.Component {
   render() {
@@ -62,5 +64,5 @@ class Game extends React.Component {
 
 ReactDOM.render(
   <Game />,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
